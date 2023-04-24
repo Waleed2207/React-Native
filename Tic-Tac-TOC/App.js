@@ -1,7 +1,9 @@
 import { useState } from "react";
- import "./styles.css";
+import './styles.css';
 
+// The Square component represents a single square on the game board
 function Square({ value, onSquareClick }) {
+  // The button element represents the square on the board
   return (
       <button className="square" onClick={onSquareClick}>
         {value}
@@ -9,20 +11,27 @@ function Square({ value, onSquareClick }) {
   );
 }
 
+// The Board component represents the game board, which contains multiple squares
 function Board({ xIsNext, squares, onPlay }) {
+  // The handleClick function is called when a square is clicked
   function handleClick(i) {
+    // If there is already a winner or the square is already occupied, return
     if (calculateWinner(squares) || squares[i]) {
       return;
     }
+    // Create a new array with the same values as the current squares array
     const nextSquares = squares.slice();
+    // Set the value of the clicked square based on which player's turn it is
     if (xIsNext) {
       nextSquares[i] = "X";
     } else {
       nextSquares[i] = "O";
     }
+    // Call the onPlay function, passing in the updated squares array
     onPlay(nextSquares);
   }
 
+  // Determine the winner of the game, if there is one
   const winner = calculateWinner(squares);
   let status;
   if (winner) {
@@ -31,6 +40,7 @@ function Board({ xIsNext, squares, onPlay }) {
     status = "Next player: " + (xIsNext ? "X" : "O");
   }
 
+  // Render the game board by creating 3 rows of 3 squares each
   return (
       <>
         <div className="status">{status}</div>
@@ -53,18 +63,22 @@ function Board({ xIsNext, squares, onPlay }) {
   );
 }
 
+// The Game component represents the entire game, including the game board and game history
 export default function Game() {
+  // Initialize the game state, including the history of all moves and the current move index
   const [history, setHistory] = useState([Array(9).fill(null)]);
   const [currentMove, setCurrentMove] = useState(0);
   const xIsNext = currentMove % 2 === 0;
   const currentSquares = history[currentMove];
 
+  // Handle a new move by updating the game state with the new squares array and current move index
   function handlePlay(nextSquares) {
     const nextHistory = [...history.slice(0, currentMove + 1), nextSquares];
     setHistory(nextHistory);
     setCurrentMove(nextHistory.length - 1);
   }
 
+  // Jump to
   function jumpTo(nextMove) {
     setCurrentMove(nextMove);
   }
