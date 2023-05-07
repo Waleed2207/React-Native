@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c656d84d-e3cd-4a44-845d-72304bec0609" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tic-Tac-TOC/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Tic-Tac-TOC/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tic-Tac-TOC/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tic-Tac-TOC/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tic-Tac-TOC/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tic-Tac-TOC/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tic-Tac-TOC/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Tic-Tac-TOC/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +41,7 @@
       <updated>1681493529746</updated>
       <workItem from="1681493531214" duration="1140000" />
       <workItem from="1681495497433" duration="1288000" />
+      <workItem from="1683275294354" duration="595000" />
     </task>
     <servers />
   </component>
