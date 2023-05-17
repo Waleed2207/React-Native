@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c656d84d-e3cd-4a44-845d-72304bec0609" name="Changes" comment="My Timer">
+    <list default="true" id="c656d84d-e3cd-4a44-845d-72304bec0609" name="Changes" comment="AwesomeProject">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,17 +26,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;AndroidSdkUpdater&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\click\\Documents\\Software Engnieer\\React-Native\\MyTimer\\node_modules\\typescript\\lib&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "AndroidSdkUpdater",
+    "ts.external.directory.path": "C:\\Users\\click\\Documents\\Software Engnieer\\React-Native\\AwesomeProject\\node_modules\\typescript\\lib"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -51,7 +51,7 @@
       <workItem from="1683464061471" duration="484000" />
       <workItem from="1684141683953" duration="341000" />
       <workItem from="1684321759521" duration="231000" />
-      <workItem from="1684322013333" duration="299000" />
+      <workItem from="1684322013333" duration="1056000" />
     </task>
     <task id="LOCAL‎-00001" summary="My Timer">
       <created>1683464254802</created>
@@ -60,7 +60,14 @@
       <option name="project" value="LOCAL‎" />
       <updated>1683464254802</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL‎-00002" summary="AwesomeProject">
+      <created>1684322696202</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL‎-00002" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1684322696202</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -79,6 +86,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="My Timer" />
-    <option name="LAST_COMMIT_MESSAGE" value="My Timer" />
+    <MESSAGE value="AwesomeProject" />
+    <option name="LAST_COMMIT_MESSAGE" value="AwesomeProject" />
   </component>
 </project>
