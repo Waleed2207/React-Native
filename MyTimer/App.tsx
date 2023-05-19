@@ -9,7 +9,8 @@ import React from 'react';
 
 import type {PropsWithChildren} from 'react';
 import {
-  Dimensions, Image,
+  Dimensions,
+  Image,
   SafeAreaView,
   ScrollView,
   StatusBar,
@@ -33,7 +34,6 @@ function App(): JSX.Element {
     backgroundColor: '#F6FAF6',
     flex: 1,
     borderWidth: 2,
-
   };
 
   return (
@@ -45,20 +45,34 @@ function App(): JSX.Element {
         <View style={styles.MyTimerContainer}>
           <Text style={styles.MyTimerText}>My Timer</Text>
         </View>
-          <View style={{flex:1}}></View>
+        <View style={{flex: 1}} />
       </View>
       <View style={styles.rootContainer}>
         <View style={styles.maincontainer}>
-            <Text style={styles.labelTXT}>להתחברות לאפלקציית טיימר אנא הזינו את מספר הטלפון והמייל שלכם</Text>
-            <TextInput style={styles.input} placeholder="הקלד אמייל" placeholderTextColor="#000" />
-            <TextInput style={styles.input} placeholder="הקלד מספר" placeholderTextColor="#000" />
+          <Text style={styles.labelTXT}>
+            להתחברות לאפלקציית טיימר אנא הזינו את מספר הטלפון והמייל שלכם
+          </Text>
+          <TextInput
+            style={styles.input}
+            placeholder="הקלד אמייל"
+            placeholderTextColor="#000"
+          />
+          <TextInput
+            style={styles.input}
+            placeholder="הקלד מספר"
+            placeholderTextColor="#000"
+            keyboardType="numeric"
+          />
         </View>
       </View>
       <View style={[styles.footerContainer]}>
-        <Image source={require('./images/login-button-arrow.png')} style={styles.footerImage} />
+        <Image
+          source={require('./images/login-button-arrow.png')}
+          style={styles.footerImage}
+        />
         <View style={styles.footerTextContainer}>
           <Text style={styles.footerText}>צריך עזרה?</Text>
-          <Text style={styles.footerText2} >יצירת קשר עם התמיכה</Text>
+          <Text style={styles.footerText2}>יצירת קשר עם התמיכה</Text>
         </View>
       </View>
     </SafeAreaView>
@@ -87,17 +101,17 @@ const styles = StyleSheet.create({
     backgroundColor: 'white',
     justifyContent: 'space-between',
   },
-  logo :{
+  logo: {
     width: 50,
     height: 50,
   },
-  MyTimerTxt :{
-    flex:1,
+  MyTimerTxt: {
+    flex: 1,
     padding: 10,
     color: 'black',
     fontSize: 15,
   },
-    LogoContainer: {
+  LogoContainer: {
     flex: 1,
     alignItems: 'flex-start',
     paddingLeft: 10,
@@ -113,24 +127,23 @@ const styles = StyleSheet.create({
   },
   MyTimerText: {
     fontSize: 30,
-    fontWeight: "bold",
-    color: "black",
+    fontWeight: 'bold',
+    color: 'black',
   },
-  maincontainer :{
+  maincontainer: {
     flex: 1,
     alignItems: 'center',
     marginTop: 100,
     width: '100%',
     paddingHorizontal: 30,
   },
-  labelTXT :{
+  labelTXT: {
     width: 100,
     height: 50,
     minWidth: 250,
-    fontFamily:'Cochin',
+    fontFamily: 'Cochin',
     fontSize: 15,
-    color: "black",
-
+    color: 'black',
   },
   input: {
     height: 40,
@@ -153,25 +166,23 @@ const styles = StyleSheet.create({
     width: 60,
     height: 60,
     backgroundColor: '#6b00b3',
-    marginHorizontal:20,
+    marginHorizontal: 20,
     borderRadius: 60 / 2,
-
   },
   footerTextContainer: {
     flex: 1,
   },
   footerText: {
     fontSize: 16,
-    marginRight:30,
+    marginRight: 30,
     fontWeight: 'bold',
   },
   footerText2: {
     fontSize: 16,
-    marginRight:30,
+    marginRight: 30,
     fontWeight: 'bold',
     color: 'blue',
-  }
-
+  },
 });
 
 export default App;
