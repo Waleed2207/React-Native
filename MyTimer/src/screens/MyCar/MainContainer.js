@@ -22,7 +22,7 @@ function MainContainer(props) {
                     keyboardType="numeric"
                     onSubmitEditing={Keyboard.dismiss}
                 />
-                <Image source={require('../images/callSquare.png')} style={styles.call}/>
+                <Image source={require('../../assets/icons/callSquare.png')} style={styles.call}/>
             </View>
             <View style={styles.IconWithInput}>
                 <TextInput
@@ -32,7 +32,7 @@ function MainContainer(props) {
                 onSubmitEditing={Keyboard.dismiss}
                 
                 />
-                <Image source={require('../images/messageSquare.png')} style={styles.call}/>
+                <Image source={require('../../assets/icons/messageSquare.png')} style={styles.call}/>
             </View> 
         </>
     );

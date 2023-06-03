@@ -6,9 +6,9 @@
  */
 
 import React from 'react';
-import Header from './Component/Header';
-import MainContainer from './Component/MainContainer';
-import Footer from './Component/Footer';
+import Header from './src/screens/MyCar/Header';
+import MainContainer from './src/screens/MyCar/MainContainer';
+import Footer from './src/screens/MyCar/Footer';
 
 import type {PropsWithChildren} from 'react';
 import {

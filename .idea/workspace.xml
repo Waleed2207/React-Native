@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c656d84d-e3cd-4a44-845d-72304bec0609" name="Changes" comment="AwesomeProject">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwesomeProject/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/AwesomeProject/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tic-Tac-TOC/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tic-Tac-TOC/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tic-Tac-TOC/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Tic-Tac-TOC/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +36,7 @@
     "WebServerToolWindowFactoryState": "false",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "AndroidSdkUpdater",
-    "ts.external.directory.path": "C:\\Users\\click\\Documents\\Software Engnieer\\React-Native\\AwesomeProject\\node_modules\\typescript\\lib"
+    "ts.external.directory.path": "C:\\Users\\click\\Documents\\Software Engnieer\\React-Native\\MyTimer\\node_modules\\typescript\\lib"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -52,6 +54,7 @@
       <workItem from="1684141683953" duration="341000" />
       <workItem from="1684321759521" duration="231000" />
       <workItem from="1684322013333" duration="1056000" />
+      <workItem from="1685828093161" duration="411000" />
     </task>
     <task id="LOCAL‎-00001" summary="My Timer">
       <created>1683464254802</created>

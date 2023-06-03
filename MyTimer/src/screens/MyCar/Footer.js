@@ -19,7 +19,7 @@ function Footer(props) {
                             start={{ x: 0.0, y: 0.0 }}
                             end={{ x: 1.0, y: 1.0 }}
                             style={styles.gradient}>
-                <Image style={styles.arrow} source={require('../images/login-button-arrow.png')}></Image>
+                <Image style={styles.arrow} source={require('../../assets/icons/login-button-arrow.png')}></Image>
             </LinearGradient> 
             </Pressable>
             <View style={styles.footerTextContainer}>
@@ -74,12 +74,6 @@ const styles = StyleSheet.create({
           justifyContent:'center',
           alignItems:'center',
       },
-      arrow: {
-        width: 30,
-        height: 30,
-        backgroundColor: 'transparent',
-        color: '#ffffff',
-        
-      },
+
 });
 export default Footer;
